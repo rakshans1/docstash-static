@@ -1,0 +1,19 @@
+.sidebar{
+  border-right: 1px solid $gray-lighter;
+  background-color: $light;
+  height: 100vh;
+
+  a{
+    color: $gray-light;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  ul{
+    margin: 20px 0;
+  }
+  li{
+    margin: 10px;
+    text-align: left;
+    padding-left: 10px;
+  }
+}
