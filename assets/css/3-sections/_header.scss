@@ -10,7 +10,7 @@
   margin-left: 5px;
 }
 nav{
-  border-bottom: 1px solid $gray-lighter;
+  border-bottom: 1px solid darken($light, 10);
 }
 .navbar{
   padding: 10px 20px;

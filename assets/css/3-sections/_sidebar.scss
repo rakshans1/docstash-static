@@ -1,19 +1,43 @@
 .sidebar{
-  border-right: 1px solid $gray-lighter;
+  position: relative;
+  border-right: 1px solid darken($light, 10);
   background-color: $light;
   height: 100vh;
-
+  .active{
+    color: darken($secondary, 10);
+  }
   a{
-    color: $gray-light;
+    color: darken($gray-light, 10);
     text-decoration: none;
+    font-weight: 500;
+    margin-left: 5px;
+    font-size: 1.1em;
+  }
+  .sidebar-text{
+    color: lighten($gray-light, 20);
     font-weight: 600;
+    text-align: left;
+    margin: 60px 0 0 30px;
   }
   ul{
-    margin: 20px 0;
+    margin: 10px 0;
   }
   li{
-    margin: 10px;
+    margin: 20px 10px;
     text-align: left;
-    padding-left: 10px;
+  }
+  .usage{
+    position: absolute;
+    width: 80%;
+    bottom: 0vh;
+    .usage-use{
+      color: $secondary;
+      font-weight: 600;
+      padding: 0;
+    }
+    .usage-capacity{
+      color: $main;
+      font-weight: 700;
+    }
   }
 }
