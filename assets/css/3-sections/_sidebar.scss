@@ -9,35 +9,38 @@
   a{
     color: darken($gray-light, 10);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 5px;
-    font-size: 1.1em;
+    font-size: 0.8em;
   }
   .sidebar-text{
     color: lighten($gray-light, 20);
     font-weight: 600;
     text-align: left;
-    margin: 60px 0 0 30px;
+    margin: 30px 0 10px 30px;
+    font-size: 0.8em;
   }
   ul{
     margin: 10px 0;
   }
   li{
-    margin: 20px 10px;
+    margin: 5px 10px;
     text-align: left;
   }
   .usage{
     position: absolute;
     width: 80%;
-    bottom: 0vh;
+    top: 30em;
     .usage-use{
       color: $secondary;
       font-weight: 600;
       padding: 0;
+      font-size: 0.8em;
     }
     .usage-capacity{
       color: $main;
       font-weight: 700;
+      font-size: 0.8em;
     }
   }
 }
