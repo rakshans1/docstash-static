@@ -1,0 +1,23 @@
+.filename{
+  color: darken($gray-light, 10);
+  font-weight: 500;
+  padding: 5px 0 0 0;
+  margin: 0;
+  font-size: 0.8em;
+}
+.filetime{
+  color: darken($gray-lighter, 25);
+ font-size: 0.6em;
+}
+.image-wrapper {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border: 2px solid white;
+    position: relative;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}

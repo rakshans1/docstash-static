@@ -20,6 +20,9 @@
     margin: 30px 0 10px 30px;
     font-size: 0.8em;
   }
+  [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-size: 1em;
+  }
   ul{
     margin: 10px 0;
   }

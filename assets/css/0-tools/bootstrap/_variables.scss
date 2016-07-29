@@ -21,6 +21,11 @@
 //
 // Variable format should follow the `$component-modifier-state-property` order.
 
+//MY vars
+$main: #007ee5;
+$secondary: lighten( $main, 20% );
+$light: lighten( $main, 54% );
+$white: #ffffff;
 
 // Colors
 //
@@ -627,7 +632,7 @@ $breadcrumb-padding-horizontal: 1rem !default;
 $breadcrumb-bg:                 $gray-lighter !default;
 $breadcrumb-divider-color:      $gray-light !default;
 $breadcrumb-active-color:       $gray-light !default;
-$breadcrumb-divider:            "/" !default;
+$breadcrumb-divider:            "|" !default;
 
 
 // Carousel
