@@ -14,7 +14,7 @@
   padding: $breadcrumb-padding-vertical $breadcrumb-padding-horizontal;
   margin-bottom: $spacer-y;
   list-style: none;
-  background-color: $white;
+  // background-color: $white;
   @include border-radius($border-radius);
   @include clearfix;
 
