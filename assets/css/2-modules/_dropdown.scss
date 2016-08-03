@@ -47,4 +47,5 @@
 // }
 .dropdown:focus ~ .dropdown-content{
   max-height: 400px;
+  transition: max-height 0.3s ease-in;
 }

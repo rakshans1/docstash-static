@@ -1,7 +1,7 @@
 A static version of docstash
 =============================
 
-
+![DocStash ScreenShot](screenshot.png?raw=true "Optional Title")
 
 
 
