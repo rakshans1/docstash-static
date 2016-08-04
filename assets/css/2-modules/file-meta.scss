@@ -1,3 +1,16 @@
+.icon{
+  width: 20%;
+}
+.doc-div{
+  .image-wrapper{
+    background-color: $white;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
+  img{
+    max-width: 40%;
+    margin: 1px 30%;
+  }
+}
+}
 .folder-div{
   padding: 0 4px;
   a{
@@ -31,7 +44,10 @@
   }
 }
 .filename{
-  color: darken($gray-lighter, 35);
+  i{
+    color: darken($gray-lighter, 20);
+  }
+  color: darken($gray-lighter, 45 );
   font-weight: 600;
   padding: 0px 0 0 0;
   margin: 8px 0 0 30px;
