@@ -43,6 +43,7 @@
 }
 .hp-features{
   margin-top: 60px;
+
   text-align: center;
 }
 .hp-img-f{
@@ -62,4 +63,34 @@
 .foot-text{
   text-align: center;
   color: $gray-light;
+}
+.hp-about{
+   margin-top: 50px;
+
+}
+.encrypt-img{
+  background-color:darken($main,15);
+}
+.footer{
+  background-color: lighten($gray,50);
+
+}
+.footer1{
+  h2{
+    margin-top:30px;
+    text-align:left;
+  }
+}
+.footer2{
+  margin-top:30px;
+  h2{
+
+  }
+  ul{
+    list-style: none;
+    line-height:180%;
+  }
+}
+.footer3{
+    margin-top:30px;
 }
