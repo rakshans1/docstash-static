@@ -10,11 +10,11 @@
   .image-wrapper{
     background-color: $white;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,.2);
-  img{
-    max-width: 40%;
-    margin: 1px 30%;
+    img{
+      max-width: 40%;
+      margin: 1px 30%;
+    }
   }
-}
 }
 .folder-div{
   padding: 0 4px;
@@ -84,4 +84,10 @@
   [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
     font-size: 1.5em;
   }
+}
+
+
+
+@media (max-width: 544px){
+
 }
