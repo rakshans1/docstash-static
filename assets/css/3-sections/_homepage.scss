@@ -16,9 +16,14 @@
     margin: 15px 15px 0 0;
     padding: 1px 15px;
   }
+  .hp-btn:hover{
+    box-shadow: 4px 4px 8px  rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: $green;
+
+  }
   h1{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     color: $white;
     font-weight: 600;
   }
@@ -29,26 +34,37 @@
   .signup-btn{
     margin: 10px 45%;
     background-color: $green;
-    border-radius: 45px;
+    border-radius: 25px;
     border: none;
     color: $white;
-    padding: 10px 30px;
+    padding: 10px 20px;
     font-size: 0.8em;
     font-weight: 500;
   }
   .hp-img{
     width: 60%;
-    margin: 50px 20%;
+    margin: 40px 20%;
   }
 }
 .hp-features{
-  margin-top: 60px;
-
+  margin-top: 30px;
   text-align: center;
+}
+.hp-feature{
+  &:hover{
+    background-color: $gray-lightest;
+    box-shadow:0px 1px 1px 1px rgba(0,0,0,.1)
+  }
 }
 .hp-img-f{
   margin: 50px auto;
+  width:40%;
+  height:60%;
 }
+.hp-img-cloud{
+  margin: 50px auto;
+}
+
 .hp-head{
   text-align: center;
   font-size: 1.5em;
@@ -58,7 +74,7 @@
   font-size: 1em;
   color: $gray-light;
   text-align: center;
-  padding: 50px 0;
+  padding: 30px 0;
 }
 .foot-text{
   text-align: center;
@@ -66,31 +82,27 @@
 }
 .hp-about{
    margin-top: 50px;
+   text-align:center;
 
 }
 .encrypt-img{
-  background-color:darken($main,15);
+  background-color:lighten($secondary,5);
 }
+
+
+
 .footer{
-  background-color: lighten($gray,50);
+  background-color: lighten($gray,55);
 
-}
-.footer1{
-  h2{
-    margin-top:30px;
-    text-align:left;
-  }
-}
-.footer2{
-  margin-top:30px;
-  h2{
+
+  img{
+    float:center;
+    vertical-align:center;
+    width:35px;
+    margin-left: 47%;
+    margin-top:60px;
+    margin-bottom:30px;
 
   }
-  ul{
-    list-style: none;
-    line-height:180%;
-  }
-}
-.footer3{
-    margin-top:30px;
+
 }
