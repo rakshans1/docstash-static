@@ -3,21 +3,17 @@
   <a class="navbar-brand brand" href="/">DocStash</a>
   <form class="form-inline pull-xs-center">
     <div class="form-group search">
-        <i class="fa fa-search search-icon"></i>
+      <img src="/assets/icon/search.svg" class="search-icon" alt="">
         <input type="text" class="form-control search-input" />
       </div>
   </form>
   <div class="avatar">
-    <img class="avatar-image" src="/assets/img/avatar-1.svg" alt="">
-    <a href="#" class="dropdown"><i class="arrow-down avatar-drop" aria-hidden="true"></i></a>
-    <div class="dropdown-content">
-      <div class="dropdown-sub">
-        <ul>
-          <li><a href="#">Setting</a></li>
-          <li><a href="#">Logout</a></li>
-        </ul>
-      </div>
-    </div>
+          <img class="avatar-image" src="/assets/img/avatar-1.svg" alt=""/>
+          <!-- <i class="arrow-down avatar-drop" aria-hidden="true" /> -->
+          <ul class="dropdowns">
+            <li><a href="#">Setting</a></li>
+            <li><a href="/signout">Logout</a></li>
+          </ul>
   </div>
 </nav>
 
