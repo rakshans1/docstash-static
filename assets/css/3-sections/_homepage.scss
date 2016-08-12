@@ -17,7 +17,6 @@
     padding: 1px 15px;
   }
   .hp-btn:hover{
-    box-shadow: 4px 4px 8px  rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: $green;
 
   }
@@ -88,8 +87,6 @@
 .encrypt-img{
   background-color:lighten($secondary,5);
 }
-
-
 
 .footer{
   background-color: lighten($gray,55);
